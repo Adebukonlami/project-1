@@ -1,0 +1,162 @@
+body{
+    background-color: hsl(225, 100%, 98%);
+    font-family: "Red Hat Display", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+
+}
+
+/* #cont{
+    background-color: hsl(225, 100%, 94%);
+    width: 100%;
+    height: 300px;
+    position: relative;
+
+}
+
+#cont:after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 60%;
+    width: 60%;
+    height: 275px;
+    background-color: hsl(225, 100%, 94%);
+    left: -50px;
+    top: 69px;
+    z-index: -1;
+}
+
+#cont:before{
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 80%;
+    width: 60%;
+    height: 200px;
+    background-color: hsl(225, 100%, 98%);
+    right: 0px;
+    top: 225px;
+} */
+
+#container {
+    width: 450px;
+    height: 580px;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    position: relative;
+    top: 15px;
+}
+#hero-image {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.header{
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.para{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#container-mini{
+    width: 300px;
+    height: 80px;
+    background-color: hsl(225, 100%, 98%);
+    margin: auto;
+    padding: 0px 18px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.music-icon{
+    width: 30px;
+    height: 30px;    
+}
+
+.item2{
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+
+}
+
+.con{
+    display: inline-block;
+    margin-left: 16px;
+    font-weight: 700;
+}
+
+.item2b{
+    color: hsl(224, 23%, 55%);
+    display: block;
+    margin-top: 5px;
+}
+
+.link-container{
+    position: absolute;
+    right: 18px;
+
+}
+
+.link{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.link:hover{
+    text-decoration: none;
+}
+
+.btn{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.button{
+    width: 300px;
+    height: 40px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    box-shadow: 0px 15px 8px hsl(225, 100%, 94%);
+   
+}
+
+.button:hover{
+    background-color: hsl(224, 23%, 55%);
+}
+
+.text-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+
+}
+
+.text-button:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { color: hsl(228, 45%, 44%); }
